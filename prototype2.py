@@ -3,7 +3,7 @@ import cv2
 dog_cascade = cv2.CascadeClassifier("haarcascade_frontalcatface.xml")
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-img = cv2.imread("./image/hillo.jpg")
+img = cv2.imread("./image/sample.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
@@ -26,7 +26,7 @@ for (x, y, w, h) in faces:
 
 
 print("number of dogs in image =", len(dogs))
-print("number of people in image ="git, len(faces))
+print("number of people in image =", len(faces))
 
 cv2.imshow("img", img)
 cv2.waitKey()
