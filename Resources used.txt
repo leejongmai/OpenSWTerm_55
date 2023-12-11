@@ -1,0 +1,3 @@
+ㅁImage resource: https://www.pinterest.co.kr/pin/1477812372043813/
+https://opencv.org/opencv-face-recognition/
+https://deep-learning-study.tistory.com/144
