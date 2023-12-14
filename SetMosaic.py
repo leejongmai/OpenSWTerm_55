@@ -3,7 +3,7 @@ import cv2
 dog_cascade = cv2.CascadeClassifier("haarcascade_frontalcatface.xml")
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-img = cv2.imread("./image/sample.jpg")
+img = cv2.imread("OpenSW_term55/image/sample.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
