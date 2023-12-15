@@ -5,8 +5,8 @@ draw rectangles around the detected faces, and apply blurring specifically to hu
 
 import cv2
 
-dog_cascade = cv2.CascadeClassifier("haarcascade_frontalcatface.xml")
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+dog_cascade = cv2.CascadeClassifier("OpenSWTerm_55/haarcascade_frontalcatface.xml")
+face_cascade = cv2.CascadeClassifier("OpenSWTerm_55/haarcascade_frontalface_default.xml")
 
 img = cv2.imread("OpenSWTerm_55/image/sample.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
